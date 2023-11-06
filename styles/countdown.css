@@ -1,0 +1,27 @@
+body{
+	margin:0px;
+	font-family:arial;
+}
+.container{
+	background:url(../res/bg.jpg);
+	background-size:cover;
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.row{
+	background:rgba(0, 0, 0, 0.9);
+	color:#fff;
+	width:100vw;
+	height:400px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+.title{
+	color:#fff;
+	font-size:18px;
+}
